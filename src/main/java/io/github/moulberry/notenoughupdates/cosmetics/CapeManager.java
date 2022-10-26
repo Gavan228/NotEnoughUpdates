@@ -53,7 +53,7 @@ public class CapeManager {
 	private final HashMap<String, Pair<NEUCape, String>> capeMap = new HashMap<>();
 
 	private int permSyncTries = 5;
-	private boolean allAvailable = false;
+	private boolean allAvailable = true;
 	private final HashSet<String> availableCapes = new HashSet<>();
 
 	public JsonObject lastJsonSync = null;
